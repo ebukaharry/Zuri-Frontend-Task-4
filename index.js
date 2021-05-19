@@ -96,3 +96,4 @@ checkYuGiOh(30);
 checkYuGiOh("fizzbuzz is meh");
 checkYuGiOh("");
 checkYuGiOh([1,2,3]);
+checkYuGiOh({darkYugi: "awesome"});
