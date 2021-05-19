@@ -45,8 +45,8 @@ checkYuGiOh = (n) => {
     const yugiMuto  = [];
     let i, num;
 
-    // condition that returns an error message when it checkYuGiOhs if n is not a number or n is an empty string .
-    if ( isNaN(n) && param !== "" || n == "") {
+    // condition that returns an error message when it checks if n is not a number or n is an empty string.
+    if (isNaN(n) && param !== "" || n == "") {
         console.log(errMsg);
         return errMsg;
     }
